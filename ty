@@ -1,0 +1,81 @@
+<?php 
+
+// if (intval($_GET['user'])) {
+//       $idutil=intval($_GET['user']);
+
+// } else {
+// $idutil=intval($_GET['id']);
+// # code...
+// }
+
+// $idutil=intval($_GET['user']);
+
+
+?>
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./css/bootstrap.min.css">
+      <link rel="stylesheet" href="./fontawesome-free/svgs/">
+      <link rel="stylesheet" href="style.css">
+      <title>Cagnote</title>
+</head>
+
+<body>
+      <header class="p-3 text-white">
+            <div class="container">
+                  <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                              
+                        </a>
+
+                        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                              <li><a href="formulaire_help.php?user=<?= $idutil;?>" class="nav-link px-2 text-white">Creer un financement</a></li>
+                              <li><a href="maliste.php?user=<?= $idutil;?>" class="nav-link px-2 text-white">Mes cagnotes</a></li>
+                              
+                        </ul>
+
+
+
+                        <div class="text-end">
+                              
+                              <a href="logout.php" class="text-light btn btn-warning text-unstyled scrollo">Deconnexion</a>
+                              
+                        </div>
+                  </div>
+            </div>
+      </header>
+
+      <div class="b-example-divider"></div>
+      <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>   -->
+
+<div class="row m-2 pt-4 pb-4">
+            <div class="col-2">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                              <span class="my-0 fw-normal">
+                                    <img src="./img/a.jpg" alt="" srcset="" class="" width="100%" >
+                              </span>
+                        </div>
+                        <div class="card-body">
+                              <h5 class="card-title pricing-card-title">financer mes etudes</h5>
+                              <small class="fw-light mt-3 mb-4">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur omnis delectus unde vero officiis voluptas hic nam itaque perferendis reiciendis iusto non possimus soluta veniam, eligendi sequi reprehenderit incidunt consequuntur!
+                              </small>
+                              <div  class="row ">
+                                    <div  class="col-6 text-success">Montant total : 0</div>
+                                    <div  class="col-6 text-danger">Montant actuel : $som=0; for ($i=1; $i<=count($afficher['part']) ; $i++) { 
+                                                                                                            $som=$som+$afficher['part'];</div>
+                              </div>
+                        </div>
+                  </div>
+            </div>      
+      </div>   
+
