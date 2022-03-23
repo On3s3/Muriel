@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rendez-vous</title>
+      <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+     <div class="container m-5">
+            <form class="form-horizontal m-4" action="" method="post" id="form">
+                  <div class="form-group">
+                        
+                        <div class="col-sm-2 mt-3">
+                              <label for="motif">Motif</label>
+                              <select name="motif" id="motif" class="form-control">
+                                    <option value="">.</option>
+                                   
+                              </select>
+      
+                        <div class="col-sm-2">
+                              <label for="date" class="control-label">Choisir la date de la livraison</label>
+                              <input class="form-control" type="date" name="date" id="date" required>
+                        </div>
+      
+                        <div class="col-sm-2 mt-2">
+                              <label for="time" class="control-label">Choisir l'heure de la livraison</label>
+                              <input class="form-control" type="time" name="time" id="date" required>
+                        </div>
+                        
+                       
+                        <div class="col-sm-2 mt-3" >
+                              <button class="btn btn-success mt-3" type="submit" name="submit">Envoyer</button>
+                        </div>
+                  </div>
+            </form>
+     </div>
+
+      <script src="jquery.js"></script>
+      <script src="parsley.min.js"></script>
+      <script>
+            $('#form').parsley();
+      </script>
+</body>
+</html>

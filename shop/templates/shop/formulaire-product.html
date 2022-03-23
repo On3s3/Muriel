@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Produit</title>
+      <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+     <div class="container m-5">
+            <form class="form-horizontal m-4" action="" method="post" id="form">
+                  <header class="m-3 text-muted ">Enregistrer un nouveau produit</header>
+                  <div class="form-group">
+                        <div class="col-sm-2">
+                              <label for="service-name" class="control-label">Designation du produit</label>
+                              <input class="form-control" type="text" name="service-name" id="service-name" required>
+                        </div>
+      
+                        <div class="col-sm-2 mt-3">
+                              <label for="price">Prix du produit</label>
+                              <input class="form-control" type="text" name="price" id="price" data-parsley-type="digits" required>
+                        </div>
+      
+                        <div class="col-sm-2 mt-3">
+                              <label for="description">Description du produit</label>
+                              <textarea class="form-control" name="description" id="description" cols="30" rows="10" required></textarea>
+                        </div>
+
+                        <div class="col-sm-2 mt-3">
+                              <label for="type">Type du produit</label>
+                              <select name="type" id="type" class="form-control">
+                                    <option value="">.</option>
+                                   
+                              </select>
+      
+                        <div class="col-sm-2 mt-3" >
+                              <button class="btn btn-success mt-3" type="submit" name="submit">Ajouter</button>
+                        </div>
+                  </div>
+            </form>
+     </div>
+
+      <script src="jquery.js"></script>
+      <script src="parsley.min.js"></script>
+      <script>
+            $('#form').parsley();
+      </script>
+</body>
+</html>

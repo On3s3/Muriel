@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>services</title>
+      <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+     <div class="container m-5">
+            <form class="form-horizontal mt-4" action="" method="post" id="form">
+                  <div class="form-group">
+                        <div class="col-sm-2">
+                              <label for="service-name" class="control-label">Nom du service</label>
+                              <input class="form-control" type="text" name="service-name" id="service-name" required>
+                        </div>
+            
+                        <div class="col-sm-2 mt-3">
+                              <label for="description">Description</label>
+                              <textarea class="form-control" name="description" id="description" cols="50" rows="4" required></textarea>
+                        </div >
+      
+                        <div class="col-sm-2 mt-3" >
+                              <button class="btn btn-success mt-3" type="submit" name="submit">Ajouter</button>
+                        </div>
+                  </div>
+            </form>
+     </div>
+
+      <script src="jquery.js"></script>
+      <script src="parsley.min.js"></script>
+      <script>
+            $('#form').parsley();
+      </script>
+</body>
+</html>
