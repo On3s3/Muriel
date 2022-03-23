@@ -1,0 +1,9 @@
+.relative{
+    position: absolute;
+    z-index: 3;
+}
+
+.pic{
+     /* background-image: url(./pictures/pexels7.jpg); */
+     background: linear-gradient(rgba(255,255,255,0.), rgba(255,255,56)), url(./pictures/pexels7.jpg);
+  }
